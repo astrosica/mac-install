@@ -10,6 +10,7 @@ Make sure to download both the appropriate distribution tarbells. For MacOSX run
 
 Directions for installation:
 * Copy files to your /usr/local directory
-** cd /usr/local
-** sudo cp ~/Downloads/miriad-* .
-* Unpack files
+* cd /usr/local
+```
+* sudo cp ~/Downloads/miriad-* .
+```
