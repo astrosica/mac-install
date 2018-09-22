@@ -142,3 +142,39 @@ Add distribution directory to bash_profile.
 ```
 export PATH=”/usr/local/cfitsio:$PATH”
 ```
+
+
+## Karma
+For more information, visit:
+
+* http://www.atnf.csiro.au/computing/software/karma/
+* ftp://ftp.atnf.csiro.au/pub/software/karma/README
+* ftp://ftp.atnf.csiro.au/pub/software/karma/
+
+Make sure to download both the appropriate distribution tarbell and the relevant common.tar. For MacOSX running Sierra this was karma-1.7.20-x86_64_Darwin-15.5.tgz andkarma-1.7.20-common.tgz.
+
+### Directions for installation:
+
+Move over to /usr/local directory and copy distributions over.
+```
+cd /usr/local
+sudo cp ~/Downloads/karma-1.7.20-* .
+```
+
+Unpack tar files.
+```
+sudo gunzip karma-1.7.20-x86_64_Darwin-15.5.tgz
+sudo gunzip karma-1.7.20-common.tgz
+sudo tar -xzvf karma-1.7.20-x86_64_Darwin-15.5.tar
+sudo tar -xzvf karma-1.7.20-common.tar
+```
+Create a symbolic link that points to your karma distribution
+```
+sudo ln -s /usr/local/karma-1.7.20/x86_64_Darwin-15.5/ /usr/local/karma/
+```
+
+Add the distribution directory and KARMABASE variable to bash profile.
+```
+export PATH="/usr/local/karma/bin:$PATH"
+export KARMABASE="/usr/local/karma"
+```
