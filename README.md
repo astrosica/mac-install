@@ -8,7 +8,7 @@ For more information, visit:
 
 Make sure to download both the appropriate distribution tarbells. For MacOSX running Sierra this was miriad-darwin_x86_64.tar.bz2 and miriad-common.tar.bz2.
 
-###Directions for installation:
+### Directions for installation:
 
 Move over to /usr/local directory and copy distributions over.
 ```
