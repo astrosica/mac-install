@@ -97,3 +97,48 @@ Complete installation.
 ```
 sudo make install
 ```
+
+
+
+## CFITSIO
+For more information, visit:
+
+* https://heasarc.gsfc.nasa.gov/fitsio/fitsio.html
+
+Make sure to download both the latest cfitsio_latest.tar.gz distribution. This can always be accessed with the following link: http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio_latest.tar.gz
+
+### Directions for installation:
+
+Move over to /usr/local directory and copy distributions over.
+```
+cd /usr/local
+sudo cp ~/Downloads/cfitsio_latest.tar.gz .
+```
+
+Unpack tar file.
+```
+sudo tar xzf cfitsio_latest.tar.gz
+```
+
+Add the distribution directory and MIR variable to bash profile.
+```
+export PATH="/usr/local/miriad/darwin_x86_64/bin:$PATH"
+export MIR=”/usr/local/miriad”
+```
+
+Move into new cfitsio directory and configure.
+```
+cd ./cfitsio
+sudo ./configure
+```
+
+Run make and complete installation.
+```
+sudo make
+sudo make install
+```
+
+Add distribution directory to bash_profile.
+```
+export PATH=”/usr/local/cfitsio:$PATH”
+```
