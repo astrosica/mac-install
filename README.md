@@ -191,7 +191,7 @@ Install via Anaconda.
 conda install glueviz
 ```
 
-Note that `Glueviz` also requires `Pandas`, `PyQt5`, and `Qt Console` (see below).
+Note that `Glueviz` also requires `Pandas`, `PyQt5`, `Qt Console`, and `ipykernel` (see below).
 
 ## Pandas
 For more information, visit:
