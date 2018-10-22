@@ -191,3 +191,16 @@ Install via Anaconda.
 ```
 conda install glueviz
 ```
+
+## Pandas
+For more information, visit:
+
+* http://pandas.pydata.org/
+
+### Directions for installation:
+
+Install via Anaconda.
+
+```
+conda install pandas
+```
