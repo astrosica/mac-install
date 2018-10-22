@@ -191,7 +191,7 @@ Install via Anaconda.
 conda install glueviz
 ```
 
-Note that `Glueviz` also requires `Pandas`, `PyQt5`, `Qt Console`, `ipykernel`, `h5py`, and `xlrd` (see below).
+Note that `Glueviz` also requires `Pandas`, `PyQt5`, `Qt Console`, `ipykernel`, `h5py`, `xlrd`, and `astrodendro` (see below).
 
 ## Pandas
 For more information, visit:
@@ -269,4 +269,18 @@ Install via Anaconda.
 
 ```
 conda install xlrd
+```
+
+## astrodendro
+For more information, visit:
+
+* https://dendrograms.readthedocs.io/en/stable/
+* https://pypi.org/project/astrodendro/
+
+### Directions for installation:
+
+Download tar file from PyPI and install via
+
+```
+python setup.py install
 ```
