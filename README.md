@@ -99,7 +99,6 @@ sudo make install
 ```
 
 
-
 ## CFITSIO
 For more information, visit:
 
@@ -192,6 +191,8 @@ Install via Anaconda.
 conda install glueviz
 ```
 
+Note that `Glueviz` also requires `Pandas` and `PyQt5` (see below).
+
 ## Pandas
 For more information, visit:
 
@@ -203,4 +204,17 @@ Install via Anaconda.
 
 ```
 conda install pandas
+```
+
+## PyQt5
+For more information, visit:
+
+* https://www.riverbankcomputing.com/software/pyqt/intro
+
+### Directions for installation:
+
+Install via Homebrew.
+
+```
+brew install pyqt5
 ```
