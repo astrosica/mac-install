@@ -299,7 +299,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Download tar file from PyPI.
+Download tar file from PyPI: https://pypi.org/project/spectral-cube/.
 
 Move over to /usr/local directory and copy tar file over.
 ```
