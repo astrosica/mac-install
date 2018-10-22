@@ -178,3 +178,16 @@ Add the distribution directory and KARMABASE variable to bash profile.
 export PATH="/usr/local/karma/bin:$PATH"
 export KARMABASE="/usr/local/karma"
 ```
+
+## Glueviz
+For more information, visit:
+
+* http://docs.glueviz.org/en/stable/index.html
+
+### Directions for installation:
+
+Install via Anaconda.
+
+```
+conda install glueviz
+'''
