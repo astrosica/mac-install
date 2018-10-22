@@ -272,7 +272,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Download tar file from PyPI: [[https://pypi.org/project/astrodendro/]].
+Download tar file from PyPI: https://pypi.org/project/astrodendro/.
 
 Move over to /usr/local directory and copy tar file over.
 ```
