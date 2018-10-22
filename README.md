@@ -231,3 +231,16 @@ Install via Anaconda.
 ```
 conda install qtconsole
 ```
+
+## iPykernel
+For more information, visit:
+
+* https://pypi.org/project/ipykernel/
+
+### Directions for installation:
+
+Install via Anaconda.
+
+```
+conda install ipykernel
+```
