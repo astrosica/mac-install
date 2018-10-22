@@ -186,7 +186,6 @@ For more information, visit:
 ### Directions for installation:
 
 Install via Anaconda.
-
 ```
 conda install glueviz
 ```
@@ -201,7 +200,6 @@ For more information, visit:
 ### Directions for installation:
 
 Install via Anaconda.
-
 ```
 conda install pandas
 ```
@@ -214,7 +212,6 @@ For more information, visit:
 ### Directions for installation:
 
 Install via Homebrew.
-
 ```
 brew install pyqt5
 ```
@@ -227,7 +224,6 @@ For more information, visit:
 ### Directions for installation:
 
 Install via Anaconda.
-
 ```
 conda install qtconsole
 ```
@@ -240,7 +236,6 @@ For more information, visit:
 ### Directions for installation:
 
 Install via Anaconda.
-
 ```
 conda install ipykernel
 ```
@@ -253,7 +248,6 @@ For more information, visit:
 ### Directions for installation:
 
 Install via Anaconda.
-
 ```
 conda install h5py
 ```
@@ -266,7 +260,6 @@ For more information, visit:
 ### Directions for installation:
 
 Install via Anaconda.
-
 ```
 conda install xlrd
 ```
@@ -279,8 +272,22 @@ For more information, visit:
 
 ### Directions for installation:
 
-Download tar file from PyPI and install via
+Download tar file from PyPI.
 
+Move over to /usr/local directory and copy tar file over.
 ```
-python setup.py install
+cd /usr/local
+sudo cp ~/Downloads/astrodendro-* .
+```
+
+Unpack tar files.
+```
+sudo gunzip astrodendro-0.2.0.tar.gz
+sudo tar -xzvf astrodendro-0.2.0.tar
+```
+
+Move into astrodendro directory and install via setup.py.
+```
+cd ./astrodendro-0.2.0
+sudo python setup.py install
 ```
