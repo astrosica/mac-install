@@ -190,7 +190,7 @@ Install via Anaconda.
 conda install glueviz
 ```
 
-Note that `Glueviz` also requires `Pandas`, `PyQt5`, `Qt Console`, `ipykernel`, `h5py`, `xlrd`, and `astrodendro` (see below).
+Note that `Glueviz` also requires `Pandas`, `PyQt5`, `Qt Console`, `ipykernel`, `h5py`, `xlrd`, `astrodendro`, and `PyAVM` (see below).
 
 ## Pandas
 For more information, visit:
@@ -289,5 +289,32 @@ sudo tar -xzvf astrodendro-0.2.0.tar
 Move into astrodendro directory and install via setup.py.
 ```
 cd ./astrodendro-0.2.0
+sudo python setup.py install
+```
+
+## pyavm
+For more information, visit:
+
+* https://astrofrog.github.io/pyavm/
+
+### Directions for installation:
+
+Download tar file from PyPI.
+
+Move over to /usr/local directory and copy tar file over.
+```
+cd /usr/local
+sudo cp ~/Downloads/PyAVM-* .
+```
+
+Unpack tar files.
+```
+sudo gunzip PyAVM-0.9.4.tar.gz
+sudo tar -xzvf PyAVM-0.9.4.tar
+```
+
+Move into PyAVM directory and install via setup.py.
+```
+cd ./PyAVM-0.9.4
 sudo python setup.py install
 ```
