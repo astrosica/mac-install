@@ -218,3 +218,16 @@ Install via Homebrew.
 ```
 brew install pyqt5
 ```
+
+## Qt Console
+For more information, visit:
+
+* https://qtconsole.readthedocs.io/en/stable/
+
+### Directions for installation:
+
+Install via Anaconda.
+
+```
+conda install qtconsole
+```
