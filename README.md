@@ -191,7 +191,7 @@ Install via Anaconda.
 conda install glueviz
 ```
 
-Note that `Glueviz` also requires `Pandas`, `PyQt5`, `Qt Console`, `ipykernel`, and `h5py` (see below).
+Note that `Glueviz` also requires `Pandas`, `PyQt5`, `Qt Console`, `ipykernel`, `h5py`, and `xlrd` (see below).
 
 ## Pandas
 For more information, visit:
@@ -256,4 +256,17 @@ Install via Anaconda.
 
 ```
 conda install h5py
+```
+
+## xlrd
+For more information, visit:
+
+* https://xlrd.readthedocs.io/en/latest/
+
+### Directions for installation:
+
+Install via Anaconda.
+
+```
+conda install xlrd
 ```
