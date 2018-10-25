@@ -345,3 +345,24 @@ Move into spectral-cube directory and install via setup.py.
 cd ./spectral-cube-0.4.3
 sudo python setup.py install
 ```
+
+## Rotation Measure (RM) Synthesis
+For more information, visit:
+
+* https://github.com/brentjens/rm-synthesis
+
+### Directions for installation:
+
+Copy clone Github repository link.
+
+Move over to /usr/local directory and clone repo.
+```
+cd /usr/local
+sudo git clone https://github.com/brentjens/rm-synthesis.git
+```
+
+Move into rm-synthesis directory and install via setup.py.
+```
+cd ./rm-synthesis
+sudo python setup.py install
+```
