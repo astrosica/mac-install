@@ -1,5 +1,26 @@
 # Installation procedures for MacOS.
 
+## gcc
+For more information, visit:
+
+* 
+
+Note that installing gcc will automatically install gfortran.
+
+### Directions for installation:
+
+Move over to /usr/local directory and copy distributions over.
+```
+cd /usr/local
+sudo cp ~/Downloads/gcc-* .
+```
+
+Unpack tar file.
+```
+sudo gunzip gcc-7.1-bin.tar.gz
+sudo tar -xvf gcc-7.1-bin.tar
+```
+
 ## Miriad
 For more information, visit:
 
