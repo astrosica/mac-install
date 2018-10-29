@@ -48,6 +48,20 @@ conda install glueviz
 
 Note that HEALPix can be visualized using `CMBview` (see below).
 
+## CMBview
+For more information, visit:
+
+* https://github.com/portsmouth/cmbview
+
+### Directions for installation:
+
+Install via Github.
+```
+sudo git clone https://github.com/portsmouth/cmbview.git
+```
+
+Note that `CMBview` also requires `CFITSIO` and `hpic` libraries (see below).
+
 
 ## RPFITS
 For more information, visit:
