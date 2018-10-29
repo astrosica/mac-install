@@ -33,6 +33,22 @@ export MIR=”/usr/local/miriad”
 Note that `Miriad` also requires `RPFITS` and `WCSLIB` (see below).
 
 
+## healpy
+For more information, visit:
+
+* https://healpix.jpl.nasa.gov/
+* https://healpy.readthedocs.io/en/latest/
+
+### Directions for installation:
+
+Install via Anaconda.
+```
+conda install glueviz
+```
+
+Note that HEALPix can be visualized using `CMBview` (see below).
+
+
 ## RPFITS
 For more information, visit:
 
