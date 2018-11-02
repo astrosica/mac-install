@@ -21,6 +21,28 @@ sudo gunzip gcc-7.1-bin.tar.gz
 sudo tar -xvf gcc-7.1-bin.tar
 ```
 
+## Gnu Scientific Library (GSL)
+For more information, visit:
+
+* https://www.gnu.org/software/gsl/
+* http://ftp.igh.cnrs.fr/pub/gnu/gsl/
+
+Download the latest tar file at the bottom of the list.
+
+### Directions for installation:
+
+Move over to /usr/local directory and copy distributions over.
+```
+cd /usr/local
+sudo cp ~/Downloads/gsl-latest.tar.gz .
+```
+
+Unpack tar file.
+```
+sudo gunzip gsl-latest.tar.gz
+sudo tar -xvf gcc-7.1-bin.tar
+```
+
 ## Miriad
 For more information, visit:
 
