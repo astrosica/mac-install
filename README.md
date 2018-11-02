@@ -43,10 +43,16 @@ sudo gunzip gsl-latest.tar.gz
 sudo tar -xvf gcc-7.1-bin.tar
 ```
 
-Move into directory and install.
+Move into new gsl directory and configure.
 ```
 cd ./gsl-2.5
 sudo ./configure
+sudo make
+sudo make install
+```
+
+Complete installation.
+```
 sudo make
 sudo make install
 ```
