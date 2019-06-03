@@ -459,6 +459,7 @@ For more information, visit:
 
 * http://montage.ipac.caltech.edu/docs/download.html
 * https://github.com/Caltech-IPAC/Montage
+* http://montage.ipac.caltech.edu/docs/build.html
 * https://www.astropy.org/montage-wrapper/
 
 Note that `Montage` must be installed in order to use the Python wrapper.
@@ -477,9 +478,14 @@ sudo gunzip gcc-7.1-bin.tar.gz
 sudo tar -xvf gcc-7.1-bin.tar
 ```
 
+Build `Montage`.
+```
+sudo make
+```
+
 Add `Montage` commands (e.g., `mAdd`, `mProject`, etc.) to `$PATH` variable.
 ```
-export PATH="/usr/local/Montage/Montage:$PATH"
+export PATH="/usr/local/Montage/bin:$PATH"
 ```
 
 Install Python wrapper.
