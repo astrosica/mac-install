@@ -453,3 +453,30 @@ Move into rm-synthesis directory and install via setup.py.
 cd ./rm-synthesis
 sudo python setup.py install
 ```
+
+## Montage
+For more information, visit:
+
+* http://montage.ipac.caltech.edu/docs/download.html
+* https://www.astropy.org/montage-wrapper/
+
+Note that `Montage` must be installed in order to use the Python wrapper.
+
+### Directions for installation:
+
+Move over to /usr/local directory and copy distributions over.
+```
+cd /usr/local
+sudo cp ~/Downloads/Montage-* .
+```
+
+Unpack tar file.
+```
+sudo gunzip gcc-7.1-bin.tar.gz
+sudo tar -xvf gcc-7.1-bin.tar
+```
+
+Install Python wrapper.
+```
+pip install montage-wrapper
+```
