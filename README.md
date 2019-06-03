@@ -5,7 +5,7 @@ For more information, visit:
 
 * http://hpc.sourceforge.net/
 
-Note that installing gcc will automatically install gfortran.
+Note that installing `gcc` will automatically install gfortran.
 
 ### Directions for installation:
 
@@ -43,7 +43,7 @@ sudo gunzip gsl-latest.tar.gz
 sudo tar -xvf gcc-7.1-bin.tar
 ```
 
-Move into new gsl directory and configure.
+Move into new `gsl` directory and configure.
 ```
 cd ./gsl-2.5
 sudo ./configure
@@ -81,7 +81,7 @@ sudo tar -xzvf miriad-darwin_x86_64.tar
 sudo tar -xzvf miriad-common.tar
 ```
 
-Add the distribution directory and MIR variable to bash profile.
+Add the distribution directory and `MIR` variable to bash profile.
 ```
 export PATH="/usr/local/miriad/darwin_x86_64/bin:$PATH"
 export MIR=”/usr/local/miriad”
@@ -98,12 +98,12 @@ For more information, visit:
 
 ### Directions for installation:
 
-Install via Anaconda.
+Install via `Anaconda`.
 ```
 conda install glueviz
 ```
 
-Note that HEALPix can be visualized using `CMBview` (see below).
+Note that `HEALPix` can be visualized using `CMBview` (see below).
 
 ## CMBview
 For more information, visit:
@@ -212,7 +212,7 @@ export PATH="/usr/local/miriad/darwin_x86_64/bin:$PATH"
 export MIR=”/usr/local/miriad”
 ```
 
-Move into new cfitsio directory and configure.
+Move into new `cfitsio` directory and configure.
 ```
 cd ./cfitsio
 sudo ./configure
@@ -254,12 +254,12 @@ sudo gunzip karma-1.7.20-common.tgz
 sudo tar -xzvf karma-1.7.20-x86_64_Darwin-15.5.tar
 sudo tar -xzvf karma-1.7.20-common.tar
 ```
-Create a symbolic link that points to your karma distribution
+Create a symbolic link that points to your `karma` distribution
 ```
 sudo ln -s /usr/local/karma-1.7.20/x86_64_Darwin-15.5/ /usr/local/karma/
 ```
 
-Add the distribution directory and KARMABASE variable to bash profile.
+Add the distribution directory and `KARMABASE` variable to bash profile.
 ```
 export PATH="/usr/local/karma/bin:$PATH"
 export KARMABASE="/usr/local/karma"
@@ -272,7 +272,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Install via Anaconda.
+Install via `Anaconda`.
 ```
 conda install glueviz
 ```
@@ -286,7 +286,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Install via Anaconda.
+Install via `Anaconda`.
 ```
 conda install pandas
 ```
@@ -310,7 +310,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Install via Anaconda.
+Install via `Anaconda`.
 ```
 conda install qtconsole
 ```
@@ -322,7 +322,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Install via Anaconda.
+Install via `Anaconda`.
 ```
 conda install ipykernel
 ```
@@ -334,7 +334,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Install via Anaconda.
+Install via `Anaconda`.
 ```
 conda install h5py
 ```
@@ -346,7 +346,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Install via Anaconda.
+Install via `Anaconda`.
 ```
 conda install xlrd
 ```
@@ -359,7 +359,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Download tar file from PyPI: https://pypi.org/project/astrodendro/.
+Download tar file from `PyPI`: https://pypi.org/project/astrodendro/.
 
 Move over to /usr/local directory and copy tar file over.
 ```
@@ -373,7 +373,7 @@ sudo gunzip astrodendro-0.2.0.tar.gz
 sudo tar -xzvf astrodendro-0.2.0.tar
 ```
 
-Move into astrodendro directory and install via setup.py.
+Move into `astrodendro` directory and install via setup.py.
 ```
 cd ./astrodendro-0.2.0
 sudo python setup.py install
@@ -386,7 +386,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Download tar file from PyPI: https://pypi.org/project/spectral-cube/.
+Download tar file from `PyPI`: https://pypi.org/project/spectral-cube/.
 
 Move over to /usr/local directory and copy tar file over.
 ```
@@ -400,7 +400,7 @@ sudo gunzip PyAVM-0.9.4.tar.gz
 sudo tar -xzvf PyAVM-0.9.4.tar
 ```
 
-Move into PyAVM directory and install via setup.py.
+Move into `PyAVM` directory and install via setup.py.
 ```
 cd ./PyAVM-0.9.4
 sudo python setup.py install
@@ -413,7 +413,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Download tar file from PyPI: https://pypi.org/project/spectral-cube/.
+Download tar file from `PyPI`: https://pypi.org/project/spectral-cube/.
 
 Move over to /usr/local directory and copy tar file over.
 ```
@@ -427,7 +427,7 @@ sudo gunzip spectral-cube-0.4.3.tar.gz
 sudo tar -xzvf spectral-cube-0.4.3.tar
 ```
 
-Move into spectral-cube directory and install via setup.py.
+Move into `spectral-cube` directory and install via setup.py.
 ```
 cd ./spectral-cube-0.4.3
 sudo python setup.py install
@@ -440,7 +440,7 @@ For more information, visit:
 
 ### Directions for installation:
 
-Copy clone Github repository link.
+Copy clone `Github` repository link.
 
 Move over to /usr/local directory and clone repo.
 ```
@@ -448,7 +448,7 @@ cd /usr/local
 sudo git clone https://github.com/brentjens/rm-synthesis.git
 ```
 
-Move into rm-synthesis directory and install via setup.py.
+Move into `rm-synthesis` directory and install via setup.py.
 ```
 cd ./rm-synthesis
 sudo python setup.py install
@@ -458,6 +458,7 @@ sudo python setup.py install
 For more information, visit:
 
 * http://montage.ipac.caltech.edu/docs/download.html
+* https://github.com/Caltech-IPAC/Montage
 * https://www.astropy.org/montage-wrapper/
 
 Note that `Montage` must be installed in order to use the Python wrapper.
@@ -474,6 +475,11 @@ Unpack tar file.
 ```
 sudo gunzip gcc-7.1-bin.tar.gz
 sudo tar -xvf gcc-7.1-bin.tar
+```
+
+Add `Montage` commands (e.g., `mAdd`, `mProject`, etc.) to `$PATH` variable.
+```
+export PATH="/usr/local/Montage/Montage:$PATH"
 ```
 
 Install Python wrapper.
