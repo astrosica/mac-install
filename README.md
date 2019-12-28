@@ -492,3 +492,117 @@ Install Python wrapper.
 ```
 pip install montage-wrapper
 ```
+
+## ATLAS (Automatically Tuned Linear Algebra Software)
+For more information, visit:
+
+* http://math-atlas.sourceforge.net/
+* http://math-atlas.sourceforge.net/atlas_install/node6.html
+
+### Directions for installation:
+
+Download tar file: `atlas3.10.3.tar.bz2` from the following link:
+
+* https://sourceforge.net/project/showfiles.php?group_id=23725
+
+Move over to /usr/local directory and copy tar file over.
+```
+cd /usr/local
+sudo cp ~/Downloads/atlas* .
+```
+
+Unpack tar files.
+```
+sudo bunzip2 atlas3.10.3.tar.bz2
+sudo tar -xzvf atlas3.10.3.tar
+```
+
+Move `ATLAS` directory to a more specific one:
+```
+sudo mv ATLAS ATLAS3.10.3
+```
+
+Move into `cd ATLAS3.10.3` directory and make a build subdirectory:
+```
+cd ATLAS3.10.3
+sudo mkdir build_dir
+```
+
+Move into new build subdirectory and configure:
+```
+cd build_dir
+sudo ../configure -b 64 -D c -DPentiumCPS=2400 --prefix=/usr/local/lib/
+```
+
+## FFTW
+For more information, visit:
+
+* http://www.fftw.org/
+
+### Directions for installation:
+
+Download tar file: `fftw-3.3.8.tar.gz`
+
+Move over to /usr/local directory and copy tar file over.
+```
+cd /usr/local
+sudo cp ~/Downloads/fftw-* .
+```
+
+Unpack tar files.
+```
+sudo gunzip fftw-3.3.8.tar.gz
+sudo tar -xzvf fftw-3.3.8.tar
+```
+
+Move into `fftw-3.3.8` directory and install:
+```
+cd ./fftw-3.3.8
+sudo ./configure
+sudo make
+sudo make install
+```
+
+Install again allowing double precision:
+```
+sudo ./configure --enable-threads
+sudo make
+sudo make install
+```
+
+Install once more allowing single precision:
+```
+sudo ./configure --enable-single --enable-threads
+sudo make
+sudo make install
+```
+
+
+## Source Extractor (SExtractor)
+For more information, visit:
+
+* https://www.astromatic.net/software/sextractor
+
+### Directions for installation:
+
+Download tar file: `sextractor-2.8.6.tar.gz`
+
+Move over to /usr/local directory and copy tar file over.
+```
+cd /usr/local
+sudo cp ~/Downloads/sextractor-* .
+```
+
+Unpack tar files.
+```
+sudo gunzip sextractor-2.8.6.tar.gz
+sudo tar -xzvf sextractor-2.8.6.tar
+```
+
+Move into `sextractor-2.8.6` directory and install:
+```
+cd ./sextractor-2.8.6
+sudo ./configure
+sudo make
+sudo make install
+```
